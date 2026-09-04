@@ -1,0 +1,30 @@
+# Secrets — never commit real credentials
+.env
+.env.local
+*.pem
+
+# Replit
+.replit
+replit.nix
+.upm/
+.config/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

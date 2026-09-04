@@ -1,0 +1,8 @@
+# Telegram Bot API wrapper (v20+ required — the bot uses the async Application API)
+python-telegram-bot>=20.0,<22.0
+
+# Official Notion SDK for Python
+notion-client>=2.2.1,<3.0
+
+# Loads credentials from a local .env file
+python-dotenv>=1.0.0,<2.0
